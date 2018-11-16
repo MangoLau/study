@@ -19,7 +19,19 @@ SQL注入
 ### 5.5.6 错误处理  Error Handling
 
 ## 5.6 Cookies
-## 5.7 Session
+
+## 5.7 Sessions
+
 ## 5.8 文件上传
+### 5.8.1 处理输入的上传文件 Handling the Incoming Uploaded File
+
 ## 5.9 架构
+### 5.9.1 单一脚本响应所有请求    One Script Serves All
+    
+    单一脚本响应所有请求表示用一个脚本，通常是index.php，可以处理所有针对不用页面的请求。
+    
+### 5.9.2 每个脚本负责一项功能    One Script per Function
+
+### 5.9.3 把业务逻辑与显示分离    Separating Logic from Layout
+
 ## 5.10 总结
