@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>{title}</title>
+</head>
+<body>
+<h1>{title}</h1>
+<p>{body}</p>
+<ul>
+    {foreach:list_entries,entry_text}
+    <li>{entry_text}</li>
+    {end:}
+</ul>
+</body>
+</html>
