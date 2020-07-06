@@ -1,0 +1,17 @@
+[[source]]
+
+url = "https://mirrors.163.com/pypi/simple/"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+redis = "*"
+pymongo = "*"
+cython = "*"
+
+
+[dev-packages]
+
