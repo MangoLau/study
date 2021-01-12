@@ -20,6 +20,6 @@ g := 0.867 + 0.5i // complex128
 */
 
 func main() {
-	v := 42
-	fmt.Printf("v is of type %T\n", v)
+    v := 42
+    fmt.Printf("v is of type %T\n", v)
 }

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
-	"time"
+    "fmt"
+    "time"
 )
 
 /*
@@ -19,16 +19,16 @@ case f():
 */
 
 func main() {
-	fmt.Println("When's Tuesday?")
-	today := time.Now().Weekday()
-	switch time.Tuesday {
-	case today + 0:
-		fmt.Println("Today.")
-	case today + 1:
-		fmt.Println("Tomorrow.")
-	case today + 2:
-		fmt.Println("In two days.")
-	default:
-		fmt.Println("Too far away")
-	}
+    fmt.Println("When's Tuesday?")
+    today := time.Now().Weekday()
+    switch time.Tuesday {
+    case today + 0:
+        fmt.Println("Today.")
+    case today + 1:
+        fmt.Println("Tomorrow.")
+    case today + 2:
+        fmt.Println("In two days.")
+    default:
+        fmt.Println("Too far away")
+    }
 }

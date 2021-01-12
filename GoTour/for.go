@@ -10,9 +10,9 @@ Go 只有一种循环结构——`for` 循环。
 */
 
 func main() {
-	sum := 0
-	for i := 0; i < 10; i++ {
-		sum += 1
-	}
-	fmt.Println(sum)
+    sum := 0
+    for i := 0; i < 10; i++ {
+        sum += 1
+    }
+    fmt.Println(sum)
 }

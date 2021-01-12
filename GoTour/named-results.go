@@ -7,11 +7,11 @@ import "fmt"
 // 没有参数的 return 语句返回结果的当前值。也就是`直接`返回。
 // 直接返回语句仅应当用在像下面这样的短函数中。在长的函数中它们会影响代码的可读性。
 func split(sum int) (x, y int) {
-	x = sum * 4 / 9
-	y = sum - x
-	return
+    x = sum * 4 / 9
+    y = sum - x
+    return
 }
 
 func main() {
-	fmt.Println(split(18))
+    fmt.Println(split(18))
 }
